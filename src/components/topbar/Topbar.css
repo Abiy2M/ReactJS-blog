@@ -31,7 +31,8 @@
 
 .top_left_icon{
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     color: #444;
     cursor: pointer;
 }
@@ -46,8 +47,8 @@
 }
 .topbar_list_item{
     margin-right: 20px;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 26px;
+    font-weight: 200;
     cursor: pointer;
 }
 .top_right_icon{

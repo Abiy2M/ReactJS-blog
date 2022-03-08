@@ -1,0 +1,66 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("https://images.pexels.com/photos/1190830/pexels-photo-1190830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+.register_title {
+  font-size: 50px;
+}
+.register_form {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.register_form > label {
+  margin: 10px 0;
+}
+.register_input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  width: 30vw;
+  height: 45px;
+}
+.register_button {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  height: 35px;
+  width: 30%;
+}
+.register_login_button {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.login_link{
+  border-radius: 10px;
+  padding: 2% 40%;
+}
